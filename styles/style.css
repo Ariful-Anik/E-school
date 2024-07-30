@@ -10,6 +10,7 @@
     --h1: 4vw;
     --red-p:1rem;
     --common-p:1rem;
+    --common-h2:2.25rem;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -24,6 +25,7 @@ body {
   border-radius: 33px;
 background: rgb(33, 181, 115);
 margin: 10px 0;
+color: white;
 }
 .common-p{
     color: rgb(108, 107, 107);
@@ -33,7 +35,12 @@ margin: 10px 0;
     line-height: 2rem;
     margin: 10px 0;
 }
-
+.common-h3{
+    font-size: var(--common-h2);
+    color: rgb(65, 57, 96);
+    font-weight: 700;
+    margin: 60px 0;
+}
 /* ----------header-------- */
 header {
   background: rgb(240, 255, 240);
@@ -101,8 +108,8 @@ header {
 .topic{
     /* margin-left: 7%;
     margin-right: 7%; */
-    border: 1px solid red;
     max-width: 85vw;
+    margin-top: 100px;
     
 }
 .card{
@@ -113,17 +120,41 @@ header {
     justify-content: end;
     border: 1px solid rgb(19, 5, 145);
     padding: 30px;
+    border-radius: 10px;
+background: rgb(248, 255, 251);
+box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+border: none;
     
 }
 .img-top{
     max-width: 80px;
-    border: 1px solid red;
 }
+.online{
+    max-width: 85%;
+    
+}
+.card1{
+    border-radius: 18px;
+box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
+.card-footer {
 
-
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer img{
+    
+    width: 25px;
+}
 /* --------responsive--------- */
 
-@media screen and (min-width:1400px) {
+@media screen and (max-width:760px) {
     /* ---------hero------ */
-    
+    :root{
+        --h1: 8vw;
+        --red-p:1rem;
+        --common-p:1rem;
+        --common-h2:2.25rem;
+    }
 }
