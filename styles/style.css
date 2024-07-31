@@ -157,6 +157,22 @@ background: rgb(255, 255, 255);
   width: 200px;
   
 }
+
+/* ------footer-------- */
+.footer{
+  background: rgb(40, 37, 49);
+  margin-top: 70px;
+}
+.footer p, li{
+  color: rgb(255, 255, 255);
+max-width: 370px;
+font-size: var(--common-p);
+font-weight: 400;
+}
+footer li{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
 /* --------responsive--------- */
 
 @media screen and (max-width:760px) {
