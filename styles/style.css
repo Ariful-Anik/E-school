@@ -147,6 +147,16 @@ background: rgb(255, 255, 255);
     
     width: 25px;
 }
+
+/* --------testimonial--------- */
+.testimonial{
+  /* max-width: 70%; */
+  margin-top: 70px;
+}
+.img-thumbnail{
+  width: 200px;
+  
+}
 /* --------responsive--------- */
 
 @media screen and (max-width:760px) {
@@ -156,5 +166,11 @@ background: rgb(255, 255, 255);
         --red-p:1rem;
         --common-p:1rem;
         --common-h2:2.25rem;
+    }
+    .testimonial{
+      min-width: 100%;
+    }
+    .testimonial-p{
+      min-width: 90%;
     }
 }
